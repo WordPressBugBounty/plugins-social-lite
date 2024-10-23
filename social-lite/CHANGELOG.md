@@ -1,8 +1,11 @@
-= 1.6.2 - 2024-10-05
+= 1.6.3 - 2024-10-23 =
+- Freemius SDK update to 2.9.0
+
+= 1.6.2 - 2024-10-05 =
 - Freemius SDK update to 2.8.0
 - The Twitter icon is now replaced with the X icon.
 
-= 1.6.1 - 2024-09-03
+= 1.6.1 - 2024-09-03 =
 - Added text link type - you can now add text with up to 1000 characters to your bio link.
 - Added two new themes.
 - Several bug-fixes
