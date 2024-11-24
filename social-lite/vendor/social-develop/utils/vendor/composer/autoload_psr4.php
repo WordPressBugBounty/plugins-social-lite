@@ -6,6 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ChadwickMarketing\\Utils\\Test\\' => array($baseDir . '/test/phpunit'),
     'ChadwickMarketing\\Utils\\' => array($baseDir . '/src'),
 );

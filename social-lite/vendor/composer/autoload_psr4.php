@@ -7,6 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ChadwickMarketing\\Utils\\' => array($vendorDir . '/social-develop/utils/src'),
-    'ChadwickMarketing\\SocialLite\\Test\\' => array($baseDir . '/test/phpunit'),
     'ChadwickMarketing\\SocialLite\\' => array($baseDir . '/inc', $baseDir . '/src/inc'),
 );

@@ -1,3 +1,6 @@
+= 1.6.4 - 2024-11-24 =
+- Improved compatibility with other plugins.
+
 = 1.6.3 - 2024-10-23 =
 - Freemius SDK update to 2.9.0
 

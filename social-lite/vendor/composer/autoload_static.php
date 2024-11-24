@@ -4,13 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit273eb0c38e72d0e8fb2ebb11d0a07356
+class ComposerStaticInit5fa453a3d9b77b25535288c8be2262d9
 {
     public static $prefixLengthsPsr4 = array (
         'C' => 
         array (
             'ChadwickMarketing\\Utils\\' => 24,
-            'ChadwickMarketing\\SocialLite\\Test\\' => 34,
             'ChadwickMarketing\\SocialLite\\' => 29,
         ),
     );
@@ -19,10 +18,6 @@ class ComposerStaticInit273eb0c38e72d0e8fb2ebb11d0a07356
         'ChadwickMarketing\\Utils\\' => 
         array (
             0 => __DIR__ . '/..' . '/social-develop/utils/src',
-        ),
-        'ChadwickMarketing\\SocialLite\\Test\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/test/phpunit',
         ),
         'ChadwickMarketing\\SocialLite\\' => 
         array (
@@ -68,9 +63,9 @@ class ComposerStaticInit273eb0c38e72d0e8fb2ebb11d0a07356
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit273eb0c38e72d0e8fb2ebb11d0a07356::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit273eb0c38e72d0e8fb2ebb11d0a07356::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit273eb0c38e72d0e8fb2ebb11d0a07356::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5fa453a3d9b77b25535288c8be2262d9::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5fa453a3d9b77b25535288c8be2262d9::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit5fa453a3d9b77b25535288c8be2262d9::$classMap;
 
         }, null, ClassLoader::class);
     }
