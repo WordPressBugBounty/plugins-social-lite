@@ -1,3 +1,7 @@
+= 1.6.5 - 2024-12-17
+- Improved phone number validation for contact card.
+- Freemius SDK update to 2.10.1
+ 
 = 1.6.4 - 2024-11-24 =
 - Improved compatibility with other plugins.
 

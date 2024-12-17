@@ -8,7 +8,7 @@
  * Description: 	Turn your site into a launchpad for your links, products, and more. Build a place your fans will love, with Social.
  * Author:          Chadwick Marketing
  * Author URI:		https://socialwp.io
- * Version: 		1.6.4
+ * Version: 		1.6.5
  * Text Domain:		social-lite
  * Domain Path:		/languages
  */
@@ -49,6 +49,5 @@ if ( function_exists( 'social_fs') ) {
     // Require the Freemius SDK
     require_once SOCIAL_LITE_PATH .
         '/freemius.php';
-
 
 }
