@@ -8,7 +8,7 @@
  * Description: 	Turn your site into a launchpad for your links, products, and more. Build a place your fans will love, with Social.
  * Author:          Chadwick Marketing
  * Author URI:		https://socialwp.io
- * Version: 		1.6.6
+ * Version: 		1.6.7
  * Text Domain:		social-lite
  * Domain Path:		/languages
  */

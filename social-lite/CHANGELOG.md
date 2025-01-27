@@ -1,3 +1,7 @@
+= 1.6.7 - 2025-01-27 =
+- Freemius SDK update to 2.11.0
+- Several bug-fixes
+
 = 1.6.6 - 2025-01-10 =
 - Several bug-fixes
 
