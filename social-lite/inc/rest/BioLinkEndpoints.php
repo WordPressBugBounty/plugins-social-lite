@@ -405,17 +405,20 @@ class BioLinkEndpoints {
                     sanitize_text_field( $request->get_param( 'start' ) ),
                     sanitize_text_field( $request->get_param( 'end' ) ),
                     sanitize_text_field( $request->get_param( 'id' ) ),
-                    sanitize_text_field( $request->get_param( 'linkId' ) )
+                    sanitize_text_field( $request->get_param( 'linkId' ) ?? null )
                 ),
             ], 200);
         }
         if ( $request->get_method() === 'POST' ) {
-            if ( empty( $request->get_json_params()['data']['id'] ) ) {
+            $data = $request->get_json_params()['data'] ?? [];
+            if ( empty( $data['id'] ) ) {
                 return new WP_REST_Response([
                     'data' => 'No valid id supplied.',
                 ], 400);
             }
-            BioLinkAnalytics::instance()->handleAnalyticsAction( sanitize_text_field( $request->get_json_params()['data']['id'] ), sanitize_text_field( $request->get_json_params()['data']['linkId'] ), sanitize_text_field( $request->get_json_params()['data']['referrer'] ) );
+            $linkId = sanitize_text_field( $data['linkId'] ?? null );
+            $referrer = sanitize_text_field( $data['referrer'] ?? null );
+            BioLinkAnalytics::instance()->handleAnalyticsAction( sanitize_text_field( $data['id'] ), $linkId, $referrer );
             return new WP_REST_Response([
                 'data' => 'success',
             ], 200);

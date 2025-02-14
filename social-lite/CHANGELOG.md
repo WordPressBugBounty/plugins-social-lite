@@ -1,3 +1,6 @@
+= 1.6.8 - 2025-02-14 = 
+- Fixed a PHP warning that occurred with version 1.6.7.
+
 = 1.6.7 - 2025-01-27 =
 - Freemius SDK update to 2.11.0
 - Several bug-fixes
