@@ -42,7 +42,8 @@
             "View shop": ["Shop ansehen"],
             "No products found.": ["Keine Produkte gefunden."],
             "Mobile": ["Mobil"],
-            "Message": ["Nachricht"]
+            "Message": ["Nachricht"],
+            "Open on X": ["Auf X \u00f6ffnen"]
         }
     }
 }

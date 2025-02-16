@@ -1,3 +1,6 @@
+= 1.6.9 - 2025-02-16 = 
+- Added X link type - you can now embed posts from X on your bio link.
+
 = 1.6.8 - 2025-02-14 = 
 - Fixed a PHP warning that occurred with version 1.6.7.
 

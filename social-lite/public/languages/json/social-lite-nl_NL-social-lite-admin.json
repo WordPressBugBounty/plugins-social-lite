@@ -711,7 +711,14 @@
             "Add a button to your text element.": ["Voeg een knop toe aan je tekst-element."],
             "Add a button URL": ["Voeg een knop-URL toe"],
             "Please provide a valid button link.": ["Geef een geldige knop-link op."],
-            "Please enter some text.": ["Voer een tekst in."]
+            "Please enter some text.": ["Voer een tekst in."],
+            "X": ["X"],
+            "X options": ["X-opties"],
+            "Embed X on bio link": ["Insluiten X op de link in bio"],
+            "Link off to X": ["Link naar X"],
+            "Please provide a valid X link.": ["Geef een geldige X-link op."],
+            "Open on X": ["Open op X"],
+            "Share posts from X.": ["Deel berichten van X."]
         }
     }
 }

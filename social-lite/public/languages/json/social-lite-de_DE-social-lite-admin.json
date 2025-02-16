@@ -717,7 +717,14 @@
             "Add a button to your text element.": ["F\u00fcge einen Button zu deinem Text-Element hinzu."],
             "Add a button URL": ["Button-URL hinzuf\u00fcgen"],
             "Please provide a valid button link.": ["Bitte gib einen g\u00fcltigen Button-Link an."],
-            "Please enter some text.": ["Bitte gib einen Text ein."]
+            "Please enter some text.": ["Bitte gib einen Text ein."],
+            "X": ["X"],
+            "X options": ["X-Optionen"],
+            "Embed X on bio link": ["X auf Bio-Link einbetten"],
+            "Link off to X": ["Zu X verlinken"],
+            "Please provide a valid X link.": ["Bitte gib einen g\u00fcltigen X-Link an."],
+            "Open on X": ["Auf X \u00f6ffnen"],
+            "Share posts from X.": ["Teile Beitr\u00e4ge von X."]
         }
     }
 }

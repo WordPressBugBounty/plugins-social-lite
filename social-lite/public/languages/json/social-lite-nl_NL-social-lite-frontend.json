@@ -40,9 +40,10 @@
             "No feed found.": ["Geen feed gevonden."],
             "Open in TikTok": ["Open in TikTok"],
             "View shop": ["Bekijk winkel"],
-            "No products found.": ["Geen producten gevonden."], 
+            "No products found.": ["Geen producten gevonden."],
             "Mobile": ["Mobiel"],
             "Message": ["Bericht"],
+            "Open on X": ["Open op X"]
         }
     }
 }

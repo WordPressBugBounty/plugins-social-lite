@@ -40,7 +40,8 @@
             "View shop": ["Mağazayı görüntüle"],
             "No products found.": ["Hiç ürün bulunamadı."],
             "Mobile": ["Mobil"],
-            "Message": ["Mesaj"]
+            "Message": ["Mesaj"],
+            "Open on X": ["X'te aç"]
         }
     }
 }

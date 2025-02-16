@@ -4,7 +4,7 @@ Tags: linktree, link in bio, instagram, ai, tiktok
 Requires at least: 5.5
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.6.8
+Stable tag: 1.6.9
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -64,6 +64,9 @@ Freemius:
 Social uses [Freemius](https://freemius.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements. Freemius SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users. Integrating Freemius SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.** Learn more about how [Freemius collects and uses this data](https://freemius.com/privacy/).
 
 == Changelog ==
+= 1.6.9 - 2025-02-16 = 
+- Added X link type - you can now embed posts from X on your bio link.
+
 = 1.6.8 - 2025-02-14 = 
 - Fixed a PHP warning that occurred with version 1.6.7.
 
