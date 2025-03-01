@@ -1,3 +1,6 @@
+= 1.7.0 - 2025-02-26 = 
+- Improved contact information parsing for contact card.
+
 = 1.6.9 - 2025-02-16 = 
 - Added X link type - you can now embed posts from X on your bio link.
 
