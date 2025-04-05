@@ -724,7 +724,13 @@
             "Link off to X": ["Zu X verlinken"],
             "Please provide a valid X link.": ["Bitte gib einen g\u00fcltigen X-Link an."],
             "Open on X": ["Auf X \u00f6ffnen"],
-            "Share posts from X.": ["Teile Beitr\u00e4ge von X."]
+            "Share posts from X.": ["Teile Beitr\u00e4ge von X."],
+            "QR code": ["QR-Code"],
+            "Show a QR code that visitors can scan to save your contact details.": [
+                "Zeige einen QR-Code, den Besucher scannen k\u00f6nnen, um deine Kontaktdaten zu speichern."
+            ],
+            "Show QR code": ["QR-Code anzeigen"],
+            "Close QR code": ["QR-Code schlie\u00dfen"]
         }
     }
 }

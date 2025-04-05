@@ -1,3 +1,6 @@
+= 1.7.1 - 2025-04-05 = 
+- Added QR code support to the contact card.
+
 = 1.7.0 - 2025-02-26 = 
 - Improved contact information parsing for contact card.
 

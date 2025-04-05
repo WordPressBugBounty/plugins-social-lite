@@ -45,7 +45,9 @@
             "View shop": ["Shop ansehen"],
             "No products found.": ["Keine Produkte gefunden."],
             "Mobile": ["Mobil"],
-            "Message": ["Nachricht"]
+            "Message": ["Nachricht"],
+            "Show QR code": ["QR-Code anzeigen"],
+            "Close QR code": ["QR-Code schlie\u00dfen"]
         }
     }
 }

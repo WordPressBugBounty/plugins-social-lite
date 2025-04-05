@@ -718,7 +718,13 @@
             "Link off to X": ["Link naar X"],
             "Please provide a valid X link.": ["Geef een geldige X-link op."],
             "Open on X": ["Open op X"],
-            "Share posts from X.": ["Deel berichten van X."]
+            "Share posts from X.": ["Deel berichten van X."],
+            "QR code": ["QR-code"],
+            "Show a QR code that visitors can scan to save your contact details.": [
+                "Toon een QR-code die bezoekers kunnen scannen om je contactgegevens op te slaan."
+            ],
+            "Show QR code": ["QR-code weergeven"],
+            "Close QR code": ["QR-code sluiten"]
         }
     }
 }

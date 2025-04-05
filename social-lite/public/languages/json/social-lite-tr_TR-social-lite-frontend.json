@@ -41,7 +41,9 @@
             "No products found.": ["Hiç ürün bulunamadı."],
             "Mobile": ["Mobil"],
             "Message": ["Mesaj"],
-            "Open on X": ["X'te aç"]
+            "Open on X": ["X'te aç"],
+            "Show QR code": ["QR kodunu görüntüle"],
+            "Close QR code": ["QR kodunu kapat"]
         }
     }
 }

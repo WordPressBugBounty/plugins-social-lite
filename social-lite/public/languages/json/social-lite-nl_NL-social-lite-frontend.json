@@ -43,7 +43,9 @@
             "No products found.": ["Geen producten gevonden."],
             "Mobile": ["Mobiel"],
             "Message": ["Bericht"],
-            "Open on X": ["Open op X"]
+            "Open on X": ["Open op X"],
+            "Show QR code": ["QR-code weergeven"],
+            "Close QR code": ["QR-code sluiten"]
         }
     }
 }
