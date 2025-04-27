@@ -198,7 +198,7 @@ class Assets {
             return $optionsBackend;
         } elseif ( $context === self::$TYPE_FRONTEND ) {
             $optionsFrontend = [
-                '__INITIAL_STATE__' => BioLinkData::instance()->getBioLinkDataFrontEnd( ( BioLinkData::instance()->getHomepageBioLink() && (is_front_page() || is_home()) ? BioLinkData::instance()->getHomepageBioLink()['id'] : get_the_id() ) ),
+                '__INITIAL_STATE__' => BioLinkData::instance()->getBioLinkDataFrontEnd( ( BioLinkData::instance()->getHomepageBioLink() && (is_front_page() || is_home()) ? BioLinkData::instance()->getHomepageBioLink()['id'] : get_queried_object_id() ) ),
                 'dependencies'      => $this->getDependencies(),
             ];
             return $optionsFrontend;

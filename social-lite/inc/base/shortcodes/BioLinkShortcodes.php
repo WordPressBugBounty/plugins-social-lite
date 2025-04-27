@@ -29,7 +29,7 @@ class BioLinkShortcodes {
 
         if (BioLinkData::instance()->isBioLinkAvailable()) {
 
-           $bioLinkId = is_home() || is_front_page() ? BioLinkData::instance()->getHomepageBioLink()['id'] ?? false : get_the_ID();
+           $bioLinkId = is_home() || is_front_page() ? BioLinkData::instance()->getHomepageBioLink()['id'] ?? false : get_queried_object_id();
 
            return isset( $_GET['shortcode'] ) && $this->getShortcode(sanitize_text_field($_GET['shortcode']), $bioLinkId);
 

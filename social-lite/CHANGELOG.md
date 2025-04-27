@@ -1,3 +1,7 @@
+= 1.7.2 - 2025-04-27 =
+- Fixed an issue where the ID of the current bio link was not correctly returned in some cases.
+- Added Substack social icon.
+
 = 1.7.1 - 2025-04-05 = 
 - Added QR code support to the contact card.
 

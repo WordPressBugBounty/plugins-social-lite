@@ -47,7 +47,7 @@ class BioLink {
           return $single_template;
         }
 
-        $id = get_the_ID();
+        $id = get_queried_object_id();
 
         $bio_link = BioLinkData::instance()->getBioLink($id);
 

@@ -3,7 +3,7 @@
     use ChadwickMarketing\SocialLite\base\seo\BioLinkSEO;
     $is_seo_plugin_active = BioLinkSEO::instance()->isSEOPluginActive();
 
-    $bio_link_data = (is_home() || is_front_page()) ? BioLinkData::instance()->getHomepageBioLink() : BioLinkData::instance()->getBioLinkDataById(get_the_ID());
+    $bio_link_data = (is_home() || is_front_page()) ? BioLinkData::instance()->getHomepageBioLink() : BioLinkData::instance()->getBioLinkDataById(get_queried_object_id());
 ?>
 <head>
     <meta charset="utf-8">

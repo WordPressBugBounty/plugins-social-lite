@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="<?php echo SOCIAL_LITE_SLUG . "-shortcode-root" ?>">
-        <?php echo BioLinkShortcodes::instance()->executeShortcode(sanitize_text_field($_GET['shortcode']), is_home() || is_front_page() ? BioLinkData::instance()->getHomepageBioLink()['id'] : get_the_ID()); ?>
+        <?php echo BioLinkShortcodes::instance()->executeShortcode(sanitize_text_field($_GET['shortcode']), is_home() || is_front_page() ? BioLinkData::instance()->getHomepageBioLink()['id'] : get_queried_object_id()); ?>
     </div>
     <?php wp_footer(); ?>
 </body>

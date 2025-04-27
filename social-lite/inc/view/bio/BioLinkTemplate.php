@@ -8,7 +8,7 @@
 ?>
 <body>
     <div id="<?php echo SOCIAL_LITE_SLUG . '-root'; ?>"
-        data-bio-link-id="<?php echo esc_attr(is_home() || is_front_page() ? BioLinkData::instance()->getHomepageBioLink()['id'] : get_the_ID()); ?>">
+        data-bio-link-id="<?php echo esc_attr(is_home() || is_front_page() ? BioLinkData::instance()->getHomepageBioLink()['id'] : get_queried_object_id()); ?>">
     </div>
     <?php wp_footer(); ?>
 </body>
