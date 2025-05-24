@@ -1,3 +1,6 @@
+= 1.7.3 - 2025-05-24 =
+- Freemius SDK update to 2.12.0
+
 = 1.7.2 - 2025-04-27 =
 - Fixed an issue where the ID of the current bio link was not correctly returned in some cases.
 - Added Substack social icon.

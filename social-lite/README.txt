@@ -4,7 +4,7 @@ Tags: linktree, link in bio, instagram, ai, tiktok
 Requires at least: 5.5
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.7.2
+Stable tag: 1.7.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -61,9 +61,12 @@ For documentation and tutorials visit our [Knowledge Base](https://help.socialwp
 We attach great importance to data protection. Social only sends personal data to third-party providers if it is necessary to provide certain functions. The following third-party services are used by Social:
 
 Freemius:
-Social uses [Freemius](https://freemius.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements. Freemius SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users. Integrating Freemius SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.** Learn more about how [Freemius collects and uses this data](https://freemius.com/privacy/).
+Social uses [Freemius](https://freemius.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements. Freemius SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users. Integrating Freemius SDK **does not immediately** start gathering data, **without confirmation from users in any case.** Learn more about how [Freemius collects and uses this data](https://freemius.com/privacy/).
 
 == Changelog ==
+= 1.7.3 - 2025-05-24 =
+- Freemius SDK update to 2.12.0
+
 = 1.7.2 - 2025-04-27 =
 - Fixed an issue where the ID of the current bio link was not correctly returned in some cases.
 - Added Substack social icon.
