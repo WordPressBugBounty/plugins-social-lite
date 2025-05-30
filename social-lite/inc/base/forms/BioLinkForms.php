@@ -72,6 +72,21 @@ class BioLinkForms {
     }
 
     /**
+     * Check if a consent is required.
+     *
+     * @param int $formId
+     * @param int $bioLinkId
+     *
+     * @return bool
+     */
+    public function isConsentRequired($formId, $bioLinkId) {
+            $form = $this->getForm($formId, $bioLinkId);
+
+            return isset($form['terms']['accept']) ? (bool)$form['terms']['accept'] && $form['terms']['visible'] && $form['terms']['description'] : false;
+     }
+
+
+    /**
      * Function to encode or decode a token.
      *
      * @param string $action encode or decode
@@ -223,7 +238,16 @@ class BioLinkForms {
 
         }
 
+        if ($this->isConsentRequired($formId, $bioLinkId)) {
+
+            $fields['consent'] = gmdate('Y-m-d H:i:s');
+
+        }
+
+
         $fields['url'] = BioLinkData::instance()->getBioLinkDataById($bioLinkId)['data']['meta']['homepage'] ? get_home_url() : get_permalink($bioLinkId);
+
+    
 
         BioLinkNotifications::instance()->sendMailNotification($this->getFormAddressee($formId, $bioLinkId), $fields);
 

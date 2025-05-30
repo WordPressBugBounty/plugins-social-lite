@@ -1,3 +1,7 @@
+= 1.7.4 - 2025-05-30 =
+- Added a new option to require visitors to accept the terms and conditions before submitting a form.
+- Added translation to the contact card fields.
+
 = 1.7.3 - 2025-05-24 =
 - Freemius SDK update to 2.12.0
 

@@ -18,6 +18,7 @@
             "e.g. summer-styled theme with blue buttons": ["bijv. zomerstijl thema met blauwe knoppen"],
             "Accept style": ["Stijl accepteren"],
             "Try again": ["Opnieuw"],
+            "Consent": ["Toestemming"],
             "Unleash your personal design co-pilot": ["Laat je persoonlijke ontwerp co-pilot los"],
             "Upgrade to the Performance plan to unlock AI-generated styles.": [
                 "Upgrade naar het Performance-plan om AI-gemaakte stijlen te ontgrendelen."
@@ -25,6 +26,9 @@
             "Create beautiful styles in seconds": ["Maak prachtige stijlen in seconden"],
             "Simply describe your desired style and let AI do the rest": [
                 "Beschrijf eenvoudig je gewenste stijl en laat de AI de rest doen"
+            ],
+            "Require visitors to accept the terms before submitting the form.": [
+                 "Vereis dat bezoekers de voorwaarden accepteren voordat ze het formulier indienen."
             ],
             "Maybe later": ["Misschien later"],
             "CTR": ["CTR"],

@@ -719,6 +719,10 @@
             "Please provide a valid button link.": ["Bitte gib einen g\u00fcltigen Button-Link an."],
             "Please enter some text.": ["Bitte gib einen Text ein."],
             "X": ["X"],
+            "Require visitors to accept the terms before submitting the form.": [
+                "Verpflichte Besucher dazu, die Bedingungen vor dem Absenden des Formulars zu akzeptieren."
+            ],
+            "Consent": ["Zustimmung"],
             "X options": ["X-Optionen"],
             "Embed X on bio link": ["X auf Bio-Link einbetten"],
             "Link off to X": ["Zu X verlinken"],

@@ -22,6 +22,9 @@
             "No posts found.": ["Geen berichten gevonden"],
             "Thank you for your message.": ["Bedankt voor je bericht"],
             "Go back": ["Terug"],
+            "Personal": ["Persoonlijk"],
+            "Work": ["Werk"],
+            "Other": ["Anders"],
             "Submit": ["Verzenden"],
             "An unexpected error occurred. Please try again.": [
                 "Er is een onverwachte fout opgetreden. Probeer het opnieuw."

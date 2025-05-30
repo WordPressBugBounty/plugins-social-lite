@@ -149,6 +149,10 @@
             "Please provide a valid Twitch link.": ["Bitte geben Sie einen g\u00fcltigen Twitch-Link an."],
             "Share your latest Twitch stream.": ["Teilen Sie Ihren neuesten Twitch-Stream."],
             "example.com/terms-and-conditions": ["beispiel.de/agb"],
+            "Require visitors to accept the terms before submitting the form.": [
+                "Verpflichten Sie Besucher dazu, die Bedingungen vor dem Absenden des Formulars zu akzeptieren."
+            ],
+            "Consent": ["Zustimmung"],
             "Type": ["Typ"],
             "Personal": ["Pers\u00f6nlich"],
             "Work": ["Arbeit"],
