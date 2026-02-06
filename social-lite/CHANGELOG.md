@@ -1,3 +1,10 @@
+= 1.7.8 - 2026-01-28 =
+- Added WhatsApp social icon.
+- Several bug-fixes
+
+= 1.7.7 - 2025-12-01 =
+- Freemius SDK update to 2.13.0
+
 = 1.7.6 - 2025-09-03 =
 - Freemius SDK update to 2.12.2
 
