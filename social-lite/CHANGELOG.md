@@ -1,3 +1,6 @@
+= 1.7.9 - 2026-02-17 =
+- Several bug-fixes
+
 = 1.7.8 - 2026-01-28 =
 - Added WhatsApp social icon.
 - Several bug-fixes
