@@ -15,17 +15,17 @@ if ( !function_exists( 'social_fs' ) ) {
         }
         require_once SOCIAL_LITE_PATH . '/vendor/freemius/wordpress-sdk/start.php';
         $social_fs = fs_dynamic_init( [
-            'id'              => '10702',
-            'slug'            => SOCIAL_LITE_SLUG,
-            'premium_slug'    => 'social-pro',
-            'type'            => 'plugin',
-            'public_key'      => 'pk_b8bb9e62381f312b76f0633cd602a',
-            'is_premium'      => false,
-            'premium_suffix'  => 'Pro',
-            'has_addons'      => false,
-            'has_paid_plans'  => true,
-            'has_affiliation' => 'selected',
-            'menu'            => [
+            'id'               => '10702',
+            'slug'             => SOCIAL_LITE_SLUG,
+            'premium_slug'     => 'social-pro',
+            'type'             => 'plugin',
+            'public_key'       => 'pk_b8bb9e62381f312b76f0633cd602a',
+            'is_premium'       => false,
+            'premium_suffix'   => 'Pro',
+            'has_addons'       => false,
+            'has_paid_plans'   => true,
+            'has_affiliation'  => 'selected',
+            'menu'             => [
                 'slug'        => SOCIAL_LITE_SLUG,
                 'account'     => apply_filters( SOCIAL_LITE_OPT_PREFIX . '_account_menu_enabled', true ),
                 'first-path'  => ( is_multisite() && is_main_site() ? 'plugins.php' : 'admin.php?page=social-lite' ),
@@ -34,7 +34,8 @@ if ( !function_exists( 'social_fs' ) ) {
                 'affiliation' => false,
                 'pricing'     => false,
             ],
-            'is_live'         => true,
+            'is_live'          => true,
+            'is_org_compliant' => true,
         ] );
         return $social_fs;
     }
