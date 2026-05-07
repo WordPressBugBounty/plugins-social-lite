@@ -4,7 +4,6 @@
 namespace ChadwickMarketing\SocialLite\view\bio;
 
 use ChadwickMarketing\SocialLite\base\seo\BioLinkSEO;
-use ChadwickMarketing\SocialLite\base\analytics\BioLinkAnalytics;
 use ChadwickMarketing\SocialLite\base\shortcodes\BioLinkShortcodes;
 use ChadwickMarketing\SocialLite\base\data\BioLinkData;
 
@@ -111,28 +110,31 @@ class BioLink {
     }
 
     /**
-    * Parse request for link in bio pages
-    *
-    * @since 1.0.0
-    */
-    public function parseRequest($query) {
+     * Parse request for link in bio pages
+     *
+     * @since 1.0.0
+     */
+    public function parseRequest($query)
+    {
 
-        if ( ! $query->is_main_query() ||  ! isset( $query->query['page']) || isset( $query->query['post_type']) ) {
+        if (
+            !$query->is_main_query() || isset($_GET['et_fb']) || isset($_GET['et_bfb']) || isset($_GET['et_pb_preview']) || isset($_GET['et_pb_use_builder']) || !isset($query->query['page']) || isset($query->query['post_type'])
+        ) {
             return;
         }
 
-        if ( ! empty( $query->query['name']  ) ) {
+        if (!empty($query->query['name'])) {
 
-            $query->set('post_type', [ 'post', 'page', 'cms-landingpages' ] );
+            $query->set('post_type', ['post', 'page', 'cms-landingpages']);
 
-        } elseif ( ! empty( $query->query['pagename'] ) && false === strpos( $query->query['pagename'], '/' ) && ! $query->is_posts_page ) {
+        } elseif (!empty($query->query['pagename']) && false === strpos($query->query['pagename'], '/') && !$query->is_posts_page) {
 
-            $query->set( 'post_type', [ 'post', 'page', 'cms-landingpages' ] );
+            $query->set('post_type', ['post', 'page', 'cms-landingpages']);
 
-            $query->set( 'name', $query->query['pagename'] );
+            $query->set('name', $query->query['pagename']);
 
         }
-       
+
     }
 
     /**
