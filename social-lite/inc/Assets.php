@@ -158,6 +158,23 @@ class Assets {
     }
 
     /**
+     * Get the custom post type endpoints configured for the blog button type.
+     *
+     * @return array
+     */
+    public function getBlogCptEndpoints() {
+        $endpoints = apply_filters( SOCIAL_LITE_OPT_PREFIX . '_blog_cpt_endpoints', [] );
+        $normalized = [];
+        foreach ( $endpoints as $key => $endpoint ) {
+            $slug = ( isset( $endpoint['slug'] ) ? $endpoint['slug'] : (( is_string( $key ) ? $key : '' )) );
+            if ( !empty( $slug ) ) {
+                $normalized[$slug] = $endpoint;
+            }
+        }
+        return $normalized;
+    }
+
+    /**
      * Preload the frontend styles.
      * @param string $html
      * @param string $handle
@@ -201,12 +218,14 @@ class Assets {
                 'dependencies'                 => $this->getDependencies(),
                 'isMultiUserMode'              => false,
                 'playground'                   => false,
+                'blogCptEndpoints'             => $this->getBlogCptEndpoints(),
             ];
             return $optionsBackend;
         } elseif ( $context === self::$TYPE_FRONTEND ) {
             $optionsFrontend = [
                 '__INITIAL_STATE__' => BioLinkData::instance()->getBioLinkDataFrontEnd( ( BioLinkData::instance()->getHomepageBioLink() && (is_front_page() || is_home()) ? BioLinkData::instance()->getHomepageBioLink()['id'] : get_queried_object_id() ) ),
                 'dependencies'      => $this->getDependencies(),
+                'blogCptEndpoints'  => $this->getBlogCptEndpoints(),
             ];
             return $optionsFrontend;
         }

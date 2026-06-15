@@ -1,3 +1,6 @@
+= 1.8.3 - 2026-06-15 =
+- Several bug-fixes
+
 = 1.8.2 - 2026-05-07 =
 - Several bug-fixes
 
