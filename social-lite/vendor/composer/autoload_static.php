@@ -4,14 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitcd95452f40eda939654ec4bb4e6fc15e
+class ComposerStaticInit955b42fa36a0dd5aa64c9b879fbfb8a0
 {
     public static $files = array (
         '8d50dc88e56bace65e1e72f6017983ed' => __DIR__ . '/..' . '/freemius/wordpress-sdk/start.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'C' => 
+        'C' =>
         array (
             'ChadwickMarketing\\Utils\\' => 24,
             'ChadwickMarketing\\SocialLite\\' => 29,
@@ -19,11 +19,11 @@ class ComposerStaticInitcd95452f40eda939654ec4bb4e6fc15e
     );
 
     public static $prefixDirsPsr4 = array (
-        'ChadwickMarketing\\Utils\\' => 
+        'ChadwickMarketing\\Utils\\' =>
         array (
             0 => __DIR__ . '/..' . '/social-develop/utils/src',
         ),
-        'ChadwickMarketing\\SocialLite\\' => 
+        'ChadwickMarketing\\SocialLite\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc',
             1 => __DIR__ . '/../..' . '/src/inc',
@@ -62,14 +62,15 @@ class ComposerStaticInitcd95452f40eda939654ec4bb4e6fc15e
         'ChadwickMarketing\\Utils\\PackageLocalization' => __DIR__ . '/..' . '/social-develop/utils/src/PackageLocalization.php',
         'ChadwickMarketing\\Utils\\PluginReceiver' => __DIR__ . '/..' . '/social-develop/utils/src/PluginReceiver.php',
         'ChadwickMarketing\\Utils\\Service' => __DIR__ . '/..' . '/social-develop/utils/src/Service.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitcd95452f40eda939654ec4bb4e6fc15e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitcd95452f40eda939654ec4bb4e6fc15e::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitcd95452f40eda939654ec4bb4e6fc15e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit955b42fa36a0dd5aa64c9b879fbfb8a0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit955b42fa36a0dd5aa64c9b879fbfb8a0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit955b42fa36a0dd5aa64c9b879fbfb8a0::$classMap;
 
         }, null, ClassLoader::class);
     }

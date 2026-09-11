@@ -131,7 +131,11 @@ class BioLink {
 
             $query->set('post_type', ['post', 'page', 'cms-landingpages']);
 
-            $query->set('name', $query->query['pagename']);
+            if (empty($query->queried_object) || !is_post_publicly_viewable($query->queried_object)) {
+
+                $query->set('name', $query->query['pagename']);
+
+            }
 
         }
 

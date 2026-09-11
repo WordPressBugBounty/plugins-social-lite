@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6788c483813406bf55e8400fed21adea
+class ComposerStaticInit77621508fb561e279ef822382950e502
 {
     public static $prefixLengthsPsr4 = array (
-        'C' => 
+        'C' =>
         array (
             'ChadwickMarketing\\Utils\\' => 24,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'ChadwickMarketing\\Utils\\' => 
+        'ChadwickMarketing\\Utils\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -31,14 +31,15 @@ class ComposerStaticInit6788c483813406bf55e8400fed21adea
         'ChadwickMarketing\\Utils\\PackageLocalization' => __DIR__ . '/../..' . '/src/PackageLocalization.php',
         'ChadwickMarketing\\Utils\\PluginReceiver' => __DIR__ . '/../..' . '/src/PluginReceiver.php',
         'ChadwickMarketing\\Utils\\Service' => __DIR__ . '/../..' . '/src/Service.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6788c483813406bf55e8400fed21adea::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6788c483813406bf55e8400fed21adea::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit6788c483813406bf55e8400fed21adea::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit77621508fb561e279ef822382950e502::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit77621508fb561e279ef822382950e502::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit77621508fb561e279ef822382950e502::$classMap;
 
         }, null, ClassLoader::class);
     }

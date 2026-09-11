@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '64bbf48f497e79f3d3d7ba3fecb91a7f3579fe3e',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '64bbf48f497e79f3d3d7ba3fecb91a7f3579fe3e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'freemius/wordpress-sdk' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '5f57de9d7504b37b0ee9f5da44b6699c99854dd2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../freemius/wordpress-sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'social-develop/utils' => array(
+            'pretty_version' => 'dev-feat/multipackage',
+            'version' => 'dev-feat/multipackage',
+            'reference' => 'bb1d92ba33ae3925685c4cc5701938b71e37627b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../social-develop/utils',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
