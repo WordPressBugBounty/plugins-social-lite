@@ -1,3 +1,6 @@
+= 1.8.5 - 2026-10-12 =
+- Freemius SDK update to 2.13.5
+
 = 1.8.4 - 2026-09-10 =
 - Several bug-fixes
 - Freemius SDK update to 2.13.4
